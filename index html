@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formation Cobalt</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b1220;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #1d4ed8, #0b1220);
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #cbd5e1;
+    max-width: 700px;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #60a5fa;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #111827;
+    padding: 20px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: 1px solid #1f2937;
+}
+
+.price-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+.new {
+    color: #22c55e;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #64748b;
+    font-size: 13px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Formation COBALT</h1>
+    <p>
+        Apprends à coder (HTML, CSS, JavaScript, Python) et découvre comment créer des projets concrets
+        et proposer tes compétences en ligne.
+    </p>
+    <a href="#buy" class="btn">Accéder à la formation</a>
+</header>
+
+<section>
+    <h2>🚀 Ce que tu vas apprendre</h2>
+
+    <div class="card">✔ Les bases du développement web (HTML / CSS / JS)</div>
+    <div class="card">✔ Les bases de Python pour créer des scripts utiles</div>
+    <div class="card">✔ Créer des projets concrets (sites, outils, mini-apps)</div>
+    <div class="card">✔ Comprendre comment structurer un projet propre</div>
+</section>
+
+<section>
+    <h2>💡 Ce que cette formation t’apporte</h2>
+
+    <div class="card">
+        Tu ne vas pas seulement apprendre à coder, tu vas apprendre à construire des projets réels
+        et comprendre comment utiliser tes compétences dans le monde réel.
+    </div>
+
+    <div class="card">
+        Objectif : passer de débutant à quelqu’un capable de créer et présenter ses propres projets.
+    </div>
+</section>
+
+<section>
+    <h2>🎯 À qui s’adresse cette formation ?</h2>
+
+    <div class="card">
+        • Débutants en programmation<br>
+        • Personnes qui veulent apprendre à créer des projets<br>
+        • Ceux qui veulent comprendre le développement web et Python
+    </div>
+</section>
+
+<section id="buy">
+    <h2>💰 Accès à la formation</h2>
+
+    <div class="price-box">
+        <div class="old">466 €</div>
+        <div class="new">96 €</div>
+
+        <a class="btn" href="#">Commencer maintenant</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Formation Cobalt — Tous droits réservés
+</footer>
+
+</body>
+</html>
