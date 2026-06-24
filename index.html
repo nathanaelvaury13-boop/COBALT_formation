@@ -3,147 +3,326 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formation Cobalt</title>
+
+<title>Cobalt - Formation Développement Web & Python</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0b1220;
-    color: white;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
 }
 
-header {
-    text-align: center;
-    padding: 90px 20px;
-    background: linear-gradient(135deg, #1d4ed8, #0b1220);
+body{
+background:#0b1020;
+color:white;
+line-height:1.6;
 }
 
-header h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+header{
+padding:100px 20px;
+text-align:center;
+background:
+radial-gradient(circle at top,#2563eb 0%,#0b1020 70%);
 }
 
-header p {
-    font-size: 18px;
-    color: #cbd5e1;
-    max-width: 700px;
-    margin: auto;
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 20px;
 }
 
-.btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 14px 28px;
-    background: #3b82f6;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
+h1{
+font-size:4rem;
+font-weight:800;
+margin-bottom:20px;
 }
 
-section {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: auto;
+.hero-text{
+max-width:750px;
+margin:auto;
+font-size:1.2rem;
+color:#cbd5e1;
 }
 
-h2 {
-    color: #60a5fa;
-    margin-bottom: 20px;
+.hero-button{
+display:inline-block;
+margin-top:35px;
+padding:16px 32px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+font-weight:700;
+border-radius:12px;
 }
 
-.card {
-    background: #111827;
-    padding: 20px;
-    margin: 12px 0;
-    border-radius: 10px;
-    border: 1px solid #1f2937;
+section{
+padding:80px 0;
 }
 
-.price-box {
-    text-align: center;
-    margin-top: 20px;
+h2{
+text-align:center;
+font-size:2.4rem;
+margin-bottom:40px;
 }
 
-.old {
-    text-decoration: line-through;
-    color: #94a3b8;
-    font-size: 18px;
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
-.new {
-    color: #22c55e;
-    font-size: 42px;
-    font-weight: bold;
+.card{
+background:#121a30;
+padding:25px;
+border-radius:16px;
+border:1px solid rgba(255,255,255,.08);
 }
 
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #64748b;
-    font-size: 13px;
+.card h3{
+margin-bottom:10px;
 }
+
+.price-box{
+max-width:700px;
+margin:auto;
+background:#121a30;
+padding:40px;
+border-radius:20px;
+text-align:center;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.old-price{
+font-size:1.4rem;
+text-decoration:line-through;
+color:#94a3b8;
+}
+
+.new-price{
+font-size:4rem;
+font-weight:800;
+color:#22c55e;
+margin-bottom:15px;
+}
+
+.badge{
+display:inline-block;
+padding:8px 16px;
+background:#1e293b;
+border-radius:999px;
+margin-bottom:20px;
+font-size:14px;
+}
+
+.faq{
+background:#121a30;
+padding:20px;
+margin-bottom:15px;
+border-radius:12px;
+}
+
+footer{
+padding:50px;
+text-align:center;
+color:#94a3b8;
+}
+
+.highlight{
+color:#60a5fa;
+}
+
 </style>
-
 </head>
-
 <body>
 
 <header>
-    <h1>Formation COBALT</h1>
-    <p>
-        Apprends à coder (HTML, CSS, JavaScript, Python) et découvre comment créer des projets concrets
-        et proposer tes compétences en ligne.
-    </p>
-    <a href="#buy" class="btn">Accéder à la formation</a>
+
+<div class="container">
+
+<h1>COBALT</h1>
+
+<p class="hero-text">
+Apprends à coder avec HTML, CSS, JavaScript et Python grâce à des projets concrets.
+Construis ton portfolio et développe de vraies compétences.
+</p>
+
+<a href="#acheter" class="hero-button">
+Voir la formation
+</a>
+
+</div>
+
 </header>
 
 <section>
-    <h2>🚀 Ce que tu vas apprendre</h2>
 
-    <div class="card">✔ Les bases du développement web (HTML / CSS / JS)</div>
-    <div class="card">✔ Les bases de Python pour créer des scripts utiles</div>
-    <div class="card">✔ Créer des projets concrets (sites, outils, mini-apps)</div>
-    <div class="card">✔ Comprendre comment structurer un projet propre</div>
+<div class="container">
+
+<h2>🚀 Ce que tu vas apprendre</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🌐 Développement Web</h3>
+<p>HTML, CSS et JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>🐍 Python</h3>
+<p>Scripts, logique et automatisation.</p>
+</div>
+
+<div class="card">
+<h3>💻 Projets réels</h3>
+<p>Création de sites et outils pratiques.</p>
+</div>
+
+<div class="card">
+<h3>🧠 Méthode</h3>
+<p>Organisation et bonnes pratiques.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section>
-    <h2>💡 Ce que cette formation t’apporte</h2>
 
-    <div class="card">
-        Tu ne vas pas seulement apprendre à coder, tu vas apprendre à construire des projets réels
-        et comprendre comment utiliser tes compétences dans le monde réel.
-    </div>
+<div class="container">
 
-    <div class="card">
-        Objectif : passer de débutant à quelqu’un capable de créer et présenter ses propres projets.
-    </div>
+<h2>📚 Programme</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Module 1</h3>
+<p>Installation et découverte du développement web.</p>
+</div>
+
+<div class="card">
+<h3>Module 2</h3>
+<p>HTML & CSS.</p>
+</div>
+
+<div class="card">
+<h3>Module 3</h3>
+<p>JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Module 4</h3>
+<p>Python.</p>
+</div>
+
+<div class="card">
+<h3>Module 5</h3>
+<p>Projet final et publication.</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
 <section>
-    <h2>🎯 À qui s’adresse cette formation ?</h2>
 
-    <div class="card">
-        • Débutants en programmation<br>
-        • Personnes qui veulent apprendre à créer des projets<br>
-        • Ceux qui veulent comprendre le développement web et Python
-    </div>
+<div class="container">
+
+<h2>🎯 Pour qui ?</h2>
+
+<div class="grid">
+
+<div class="card">
+Débutants en programmation
+</div>
+
+<div class="card">
+Étudiants
+</div>
+
+<div class="card">
+Curieux qui veulent créer leurs projets
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="buy">
-    <h2>💰 Accès à la formation</h2>
+<section id="acheter">
 
-    <div class="price-box">
-        <div class="old">466 €</div>
-        <div class="new">96 €</div>
+<div class="container">
 
-        <a class="btn" href="#">Commencer maintenant</a>
-    </div>
+<div class="price-box">
+
+<div class="badge">
+🔥 Offre de lancement
+</div>
+
+<h2>Accès à Cobalt</h2>
+
+<div class="old-price">466 €</div>
+<div class="new-price">96 €</div>
+
+<p>
+✔ Accès immédiat<br>
+✔ Formation en ligne<br>
+✔ Projets pratiques
+</p>
+
+<br>
+
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+<stripe-buy-button
+buy-button-id="buy_btn_1TlprIAcE21SLbrNvxJylnYS"
+publishable-key="pk_test_51TlpXGAcE21SLbrNAndYkQZGWolAkH9MU7dJe1DLAazIfUvYi9It9nvbiqFEIKCPYSXSc8wShpEoug6yADM0carW00hwkIFte7">
+</stripe-buy-button>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>❓ FAQ</h2>
+
+<div class="faq">
+<strong>Faut-il déjà savoir coder ?</strong>
+<p>Non, la formation est conçue pour les débutants.</p>
+</div>
+
+<div class="faq">
+<strong>Accès à vie ?</strong>
+<p>À définir selon ton offre.</p>
+</div>
+
+<div class="faq">
+<strong>Y a-t-il des projets pratiques ?</strong>
+<p>Oui, plusieurs projets sont prévus.</p>
+</div>
+
+</div>
+
 </section>
 
 <footer>
-    © 2026 Formation Cobalt — Tous droits réservés
+
+© 2026 Cobalt — Tous droits réservés
+
 </footer>
 
 </body>
